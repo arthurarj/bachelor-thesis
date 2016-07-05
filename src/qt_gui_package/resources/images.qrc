@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/icon.png</file>
+        <file>images/model1.bmp</file>
+        <file>images/model2.bmp</file>
+        <file>images/state_diag.png</file>
+        <file>images/state_diag_0.png</file>
+        <file>images/state_diag_1.png</file>
+        <file>images/state_diag_2.png</file>
+        <file>images/state_diag_3.png</file>
+        <file>images/state_diag_4.png</file>
+        <file>images/state_diag_5.png</file>
+        <file>images/object_0.png</file>
+        <file>images/object_1.png</file>
+    </qresource>
+</RCC>

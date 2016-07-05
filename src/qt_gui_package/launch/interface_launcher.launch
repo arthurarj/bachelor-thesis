@@ -1,0 +1,6 @@
+<!-- Entry point for using OpenNI devices -->
+<launch>
+
+	<node name="interface_node" pkg="qt_gui_package" type="qt_gui_package" />
+
+</launch>
