@@ -2,7 +2,7 @@
 
 This repository was created to make available the code used in my bachelor thesis. 
 
-Title: "Model based robotic hand tracking and gripper state determination"
+**Title:** "Model based robotic hand tracking and gripper state determination"
 
 **Video Demonstrations**
 
