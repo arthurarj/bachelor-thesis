@@ -1,0 +1,20 @@
+<!-- Entry point for using OpenNI devices -->
+<launch>
+
+	<include file="$(find freenect_launch)/launch/freenect.launch"/>
+	<include file="$(find qt_gui_package)/launch/interface_launcher.launch"/>
+
+	<node name="tracking_node" pkg="mrs_reg" type="mrs_tracking_node" />
+	<node name="gripper_state_node" pkg="mrs_reg" type="gripper_state_node" />
+	<node name="gripper_plot" pkg="rqt_plot" type="rqt_plot" 
+              args="/gripper_state_node/gripper_data/m1_sim
+		    /gripper_state_node/gripper_data/m2_sim
+		    /gripper_state_node/gripper_data/thres_1
+		    /gripper_state_node/gripper_data/thres_2" /> -->
+
+	<node name="rviz" pkg="rviz" type="rviz" />
+
+<!--	<node name="registration_node" pkg="mrs_reg" type="mrs_reg_node" /> -->
+
+
+</launch>
