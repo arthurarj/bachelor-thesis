@@ -1,5 +1,8 @@
 # bachelor_thesis
-Bachelor Thesis on Robot Hand Tracking and Gripper State Determinaton
+
+This repository was created to make available the code used in my bachelor thesis. 
+
+"Bachelor Thesis on Robot Hand Tracking and Gripper State Determinaton"
 
 
 
